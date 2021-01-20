@@ -5,7 +5,7 @@ import numpy as np
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-
+#the ciy data will link to the related csv files. This edit is for the refractoring branch in the git assignment 
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
